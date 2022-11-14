@@ -30,11 +30,6 @@
     left: 50%;
     transform: translateX(-50%);
   }
- 
-.social-icons {
-    position: fixed;
-    /* margin-left: 180px; */
-  }
   
   .social-icons a {
     transition: all 0.3s ease;
@@ -51,4 +46,8 @@
 
   input {
     width: 50%;
+  }
+
+  p {
+    font-size: 20px;
   }
