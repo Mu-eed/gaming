@@ -1,0 +1,7 @@
+.carousel .carousel-item {
+    height: 713px;
+  }
+  
+body {
+background: linear-gradient(0.25turn, red, orange, yellow,rgb(0, 153, 255),rgb(0, 153, 255),rgb(0, 229, 255),rgb(8, 196, 8),rgb(237, 3, 81),purple,rgb(255, 0, 255));
+};
