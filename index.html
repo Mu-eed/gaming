@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Titan Games</title>
 </head>
-<body style="font-family: monospace;">
+<body style="font-family: monospace; width: 100%;">
 <!-- Navigation Bar -->
 <nav class="titan-nav navbar navbar-expand-md bg-light">
     <div class="container-fluid">
@@ -37,15 +37,33 @@
     </div>
   </nav>
 <!-- Title -->
-<section id="home" class="container container-fluid">
+<section id="home" class="home container container-fluid" style="width: 100%;">
     <div class="home-page container container-fluid">
-        <div class="logo container">
-            <img class="control-logo img-fluid" style="border-radius: 10%; width:20%;" src="/assets/images/controller.png">
+        <div class="container container-fluid">
+            <div class="logo container">
+                <img class="control-logo img-fluid" style="border-radius: 10%; width:15%;" src="/assets/images/controller.png">
+            </div>
         </div>
-        <div class="title-home container">
-            <h1 class="fs-1">TITAN Games</h1>
-            <p class="text-center fs-3 bg-dark text-white">Welcome to our store!</p>
-            <p class="text-center fs-4 text-black">We offer a wide variety of the most exciting games from all over the world, produced by the best multitalented companies like <b>Rockstar</b>, <b>Naughty Dogs</b>, <b>Bethesda</b>, and many more!</p>
+        <div class="container container-fluid">
+            <div class="title-home container">
+                <h1 class="fs-1 fw-bolder">TITAN Games</h1>
+                <p class="text-center fs-3 bg-dark text-white">Welcome to our store!</p>
+                <p class="text-center fs-4 bg-light text-black">We offer a wide variety of the most exciting games from all over the world, produced by the best multitalented companies like <b>Rockstar</b>, <b>Naughty Dogs</b>, <b>Bethesda</b>, and many more!</p>
+            </div>
+        </div>
+<br>
+        <!-- Buttons -->
+        <div class="pre-buttons container container-fluid">
+            <div class="btn-1 container text-center text-white">
+                <h2 class="fs-4 fw-bold ">Learn About Us</h2>
+                <p class="fs-5 fw-light text-center">We are an ambitious, intelligent and energetic group of developers who offer a wonderfully wide range of video games sold online for everyone to enjoy.</p>
+                <button type="button" class="btn btn-light justify-items-center" href="#aboutus">Learn More</button>
+            </div>
+            <div class="btn-2 container text-center text-white">
+                <h2 class="fs-4 fw-bold">View Our Gallery</h2>
+                <p class="fs-5 fw-light text-center">Explore a gallery of portals into otherworldly adventures and experiences.</p>
+                <button type="button" class="btn btn-light justify-items-center" href="#gallery">Explore</button>
+            </div>
         </div>
     </div>
 </section>
